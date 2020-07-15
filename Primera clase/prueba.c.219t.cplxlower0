@@ -1,0 +1,35 @@
+
+;; Function main (main, funcdef_no=0, decl_uid=1793, cgraph_uid=0, symbol_order=0)
+
+main ()
+{
+  int x;
+  int c;
+  int D.1801;
+  int _5;
+
+  <bb 2> [0.00%]:
+  x_3 = 0;
+  goto <bb 4>; [0.00%]
+
+  <bb 3> [0.00%]:
+  c_7 = c_1 + x_2;
+  x_8 = x_2 + 1;
+
+  <bb 4> [0.00%]:
+  # c_1 = PHI <c_4(D)(2), c_7(3)>
+  # x_2 = PHI <x_3(2), x_8(3)>
+  if (x_2 <= 9)
+    goto <bb 3>; [0.00%]
+  else
+    goto <bb 5>; [0.00%]
+
+  <bb 5> [0.00%]:
+  _5 = c_1;
+
+<L3> [0.00%]:
+  return _5;
+
+}
+
+

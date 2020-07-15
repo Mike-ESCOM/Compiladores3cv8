@@ -1,0 +1,32 @@
+
+;; Function main (main, funcdef_no=0, decl_uid=1793, cgraph_uid=0, symbol_order=0)
+
+main ()
+{
+  int x;
+  int c;
+  int D.1801;
+
+  <bb 2> [0.00%]:
+  x = 0;
+  goto <bb 4>; [0.00%]
+
+  <bb 3> [0.00%]:
+  c = c + x;
+  x = x + 1;
+
+  <bb 4> [0.00%]:
+  if (x <= 9)
+    goto <bb 3>; [0.00%]
+  else
+    goto <bb 5>; [0.00%]
+
+  <bb 5> [0.00%]:
+  D.1801 = c;
+
+<L3> [0.00%]:
+  return D.1801;
+
+}
+
+
